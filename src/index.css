@@ -2,3 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
+p, li {
+  font-size: calc(10px + 2vw) !important;
+}
