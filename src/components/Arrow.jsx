@@ -8,10 +8,10 @@ export function Arrow() {
   const [slideIndex, setSlideIndex] = useRecoilState(index);
 
   function nextSlide(e) {
-    if (e && slideIndex < slideState.length - 1) {
+    if (e && slideIndex < slides.length - 1) {
       setSlideIndex(slideIndex + 1);
     }
-    if (e && slideIndex === slideState.length - 1) {
+    if (e && slideIndex === slides.length - 1) {
       setSlideIndex(0);
     }
   }
@@ -21,7 +21,7 @@ export function Arrow() {
       setSlideIndex(slideIndex - 1);
     }
     if (e && slideIndex === 0) {
-      setSlideIndex(slideState.length - 1);
+      setSlideIndex(slides.length - 1);
     }
   }
 
