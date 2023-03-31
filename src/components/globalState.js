@@ -5,8 +5,8 @@ export const slideState = atom({
   default: [],
 });
 
-export const slideIndex = atom({
-  key: "slideIndex",
+export const index = atom({
+  key: "index",
   default: 0,
 });
 
@@ -14,7 +14,7 @@ export const currentSlide = selector({
   key: "currentSlide",
   get: ({ get }) => {
     const slides = get(slideState);
-    const index = get(slideIndex);
-    return slides[index];
+    const i = get(index);
+    return slides[i];
   },
 });

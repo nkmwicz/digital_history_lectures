@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import { Arrows } from "./components/Arrows";
+import { Arrow } from "./components/Arrow";
 import { Router } from "./router";
 
 function App() {
   return (
     <>
-      <Arrows />
+      <Arrow />
       <Router />
     </>
   );

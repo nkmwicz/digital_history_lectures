@@ -1,11 +1,11 @@
 import React from "react";
 import { Arrows } from "@nkmwicz/reactpresentation";
-import { useRecoilValue } from "recoil";
-import { slideIndex, slideState } from "./globalState";
+import { useRecoilState, useRecoilValue } from "recoil";
+import { index, slideState } from "./globalState";
 
-export function Arrows() {
+export function Arrow() {
   const slides = useRecoilValue(slideState);
-  const [slideIndex, setSlideIndex] = useRecoilState(slideIndex);
+  const [slideIndex, setSlideIndex] = useRecoilState(index);
 
   function nextSlide(e) {
     if (e && slideIndex < slideState.length - 1) {
