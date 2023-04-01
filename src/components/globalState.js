@@ -18,3 +18,8 @@ export const currentSlide = selector({
     return slides[i];
   },
 });
+
+export const locationState = atom({
+  key: "locationState",
+  default: "Introduction",
+});
