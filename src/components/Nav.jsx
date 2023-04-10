@@ -41,7 +41,7 @@ export function Nav() {
           {pages
             ? pages.map((d, i) => {
                 return (
-                  <Link to={d.path} key={`lecture${i * 12341}`}>
+                  <Link to={d.path} key={`lecture${i * 141}`}>
                     <span onClick={handleClick}>{d.title}</span>{" "}
                   </Link>
                 );
