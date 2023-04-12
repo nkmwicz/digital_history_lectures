@@ -5,4 +5,5 @@ export const pages = [
   { title: "New Narratives & SEO", path: "/narratives-and-seo" },
   { title: "Traditional vs Digital", path: "/traditional-and-digital" },
   { title: "Open Source & Data", path: "/open-source-data" },
+  { title: "Git & GitHub", path: "/git-and-github" },
 ];
