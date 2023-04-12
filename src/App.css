@@ -50,3 +50,11 @@
 p, li {
   font-size: calc(10px + 2vw) !important;
 }
+
+.rightTextWrapper p {
+  font-size: calc(10px + 2vw) !important;
+}
+
+.rightTextWrapper {
+  width: 80%;
+}
