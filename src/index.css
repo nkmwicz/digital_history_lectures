@@ -4,5 +4,5 @@ body {
 }
 
 p, li {
-  font-size: calc(10px + 2vw) !important;
+  font-size: calc(10px + 1.5vw) !important;
 }
