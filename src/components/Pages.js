@@ -6,4 +6,5 @@ export const pages = [
   { title: "Traditional vs Digital", path: "/traditional-and-digital" },
   { title: "Open Source & Data", path: "/open-source-data" },
   { title: "Git & GitHub", path: "/git-and-github" },
+  { title: "Datasets & Databases", path: "/datasets-databases" },
 ];
