@@ -4,4 +4,5 @@ export const pages = [
   { title: "Internet History", path: "/internet-history" },
   { title: "New Narratives & SEO", path: "/narratives-and-seo" },
   { title: "Traditional vs Digital", path: "/traditional-and-digital" },
+  { title: "Open Source & Data", path: "/open-source-data" },
 ];
