@@ -8,4 +8,7 @@ export const pages = [
   { title: "Git & GitHub", path: "/git-and-github" },
   { title: "Datasets & Databases", path: "/datasets-databases" },
   { title: "PostgreSQL Startup", path: "/postgresql-startup" },
+  { title: "PostgreSQL Design", path: "/postgresql-design" },
+  { title: "PostgreSQL Queries", path: "/postgresql-queries" },
+  { title: "PostgreSQL with Tableau", path: "/postgresql-and-tableau" },
 ];
