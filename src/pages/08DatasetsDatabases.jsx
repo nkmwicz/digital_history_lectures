@@ -12,7 +12,7 @@ export function DatasetsDatabases() {
           content="A presentation on Datasets and Databases for the Digital History course at Queens University of Charlotte."
         />
       </Helmet>
-      <PageTemplate url="https://raw.githubusercontent.com/nkmwicz/teach-lectures/master/digital-history/07-git-and-github.json" />
+      <PageTemplate url="https://raw.githubusercontent.com/nkmwicz/teach-lectures/master/digital-history/08-datasets-databases.json" />
     </>
   );
 }
