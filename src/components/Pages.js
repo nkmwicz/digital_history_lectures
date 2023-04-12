@@ -7,4 +7,5 @@ export const pages = [
   { title: "Open Source & Data", path: "/open-source-data" },
   { title: "Git & GitHub", path: "/git-and-github" },
   { title: "Datasets & Databases", path: "/datasets-databases" },
+  { title: "PostgreSQL Startup", path: "/postgresql-startup" },
 ];
