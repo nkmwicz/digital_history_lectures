@@ -11,6 +11,7 @@ export function PageTemplate({ url }) {
   const [slides, setSlides] = useRecoilState(slideState);
   const slide = useRecoilValue(currentSlide);
   const [isLoading, setIsLoading] = React.useState(true);
+  const [slideIndex, setSlideIndex] = useRecoilState(index);
 
   React.useEffect(() => {
     async function fetchSlides() {
@@ -19,6 +20,7 @@ export function PageTemplate({ url }) {
       setSlides(data.slides);
       await cacheImages(data.images);
       setIsLoading(false);
+      setSlideIndex(0);
     }
     fetchSlides();
   }, []);

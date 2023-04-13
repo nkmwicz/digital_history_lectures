@@ -16,7 +16,7 @@ export function PublicDigital() {
           content="Public Digital History, digital history."
         />
       </Helmet>
-      <PageTemplate url="https://raw.githubusercontent.com/nkmwicz/teach-lectures/master/digital-history/20-pubclic-digital.json" />
+      <PageTemplate url="https://raw.githubusercontent.com/nkmwicz/teach-lectures/master/digital-history/20-public-digital.json" />
     </>
   );
 }

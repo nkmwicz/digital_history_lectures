@@ -18,7 +18,7 @@ export const pages = [
   { title: "StoryMaps", path: "/storymaps" },
   { title: "Palladio Maps", path: "/palladio-maps" },
   { title: "Palladio Networks", path: "/palladio-networks" },
-  { title: "Public Digital History", path: "/public-digital-history" },
+  { title: "Public Digital History", path: "/digital-public-history" },
   { title: "Omeka, part I", path: "/omeka-1" },
   { title: "Omeka, part II", path: "/omeka-2" },
   { title: "Crowdsourcing History", path: "/crowdsourcing-history" },

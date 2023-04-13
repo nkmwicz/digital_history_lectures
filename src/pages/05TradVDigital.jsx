@@ -2,7 +2,7 @@ import React from "react";
 import { PageTemplate } from "../components/PageTemplate";
 import { Helmet } from "react-helmet";
 
-export function NarrativesSEO() {
+export function TradVDigital() {
   return (
     <>
       <Helmet>
