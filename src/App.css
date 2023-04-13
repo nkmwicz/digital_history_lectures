@@ -56,5 +56,5 @@ p, li {
 }
 
 .rightTextWrapper {
-  width: 80%;
+  width: 80% !important;
 }
