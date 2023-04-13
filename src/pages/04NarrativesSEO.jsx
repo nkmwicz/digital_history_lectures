@@ -1,6 +1,6 @@
 import React from "react";
 import { PageTemplate } from "../components/PageTemplate";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 export function NarrativesSEO() {
   return (
